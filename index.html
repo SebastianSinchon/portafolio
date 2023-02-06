@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Vector.png" alt="logo">
+    </header>
+
+    <div class="container">
+        <section class="section1">
+            <textarea class="text-area" placeholder="Ingrese el texto aqui" name="" id="" cols="30" rows="10"></textarea>
+            <div class="valid">
+                <p><i class="fa-solid fa-circle-exclamation"></i>Solo letras Minusculas y sin acentos</p>
+                <div class="buttons">
+                    <button class="btn-encrypt" onclick="btnEncrypt()">Encriptar</button>
+                    <button class="btn-decrypt" onclick="btnDecrypt()">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="result">
+                <img src="/img/muneco.png" alt="muneco">
+                <h3>Ningun mensaje fue encontrado</h3>
+                <p>Encuentra el texto que deseas encriptar o desencriptar</p>
+            </div>
+        </section>
+    </div>
+    
+    <!--<main>
+        <section class="sect-msj">
+            <textarea class="text-area" name="" id="" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="cont-inf">
+                <img class="img-exc" src="/img/exclamacion.png" alt="">
+                <h6 class="informacion">Solo letras minusculas y sin acento</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encript">Encriptar</button>
+                <button class="btn-desencript">Desencriptar</button>
+            </div>
+        </section>
+        <section class="sect-encript">
+            <h1 class="textMsj" id="texto">Ningún mensaje fue encontrado</h1>
+            <textarea class="encript" placeholder="Ingresa el texto que desees encriptar o desencriptar" name="" id="" cols="30" rows="10"></textarea>
+            
+                <button class="btn-copiar">Copiar</button>
+                <div style="display: flex; align-items: center; justify-content: center; height: 500px; width: 500px;">
+                    
+                    <textarea style="background-color: transparent; border: none;">
+                        <h1 style="text-align: center;">Encabezado</h1>
+                    </textarea>
+                  </div>
+        </section>  
+</main> -->
+<script src="/js/script.js"></script>
+</body>
+</html>
